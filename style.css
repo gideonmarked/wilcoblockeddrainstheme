@@ -1,0 +1,125 @@
+body{
+	margin:0px;
+}
+
+div#header-container{
+	background-size: cover !important;
+}
+
+header#branding {
+    background: rgba(0,0,0,0.79);
+    padding: 17px 0px;
+}
+
+img.custom-logo {
+    margin-left: 163px;
+    margin-top: 17px;
+}
+
+em.email_add:before {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    margin: -2px 5px 0 0;
+    vertical-align: top;
+    line-height: 30px;
+    font-family: FontAwesome;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    font-style: normal;
+    content: '\f0e0';
+}
+
+em.email_add a {
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+em.phone_number:before {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    margin: -5px 2px 0 0;
+    vertical-align: top;
+    line-height: 36px;
+    font-family: FontAwesome;
+    font-size: 38px;
+    text-align: center;
+    color: #fff;
+    content: '\f095';
+}
+
+em.phone_number a {
+    color: #fff;
+    text-decoration: none;
+    font-style: normal;
+    font-family: Arial;
+    font-size: 20px;
+}
+
+ul#menu-main-menu {
+    margin: 0px;
+}
+
+.menu-item {
+    list-style-type: none;
+    float: left;
+}
+
+.menu-item a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial;
+}
+
+hgroup {
+    width: 40%;
+    float: left;
+}
+
+.span4 {
+	width: 60%;
+    margin: 21px 0px 0px 0px !important;
+    float: right;
+}
+
+.end-clear {
+    clear: both;
+}
+
+.textwidget {
+    float: left;
+    margin-right: 20px;
+}
+
+footer#colophon {
+    background: #353535;
+}
+
+footer#colophon h4 {
+    color: #fff;
+    font-weight: bolder;
+}
+
+footer#colophon ul {
+	padding-left: 15px;
+}
+
+footer#colophon ul li, footer#colophon ul li a {
+	color: #7d7d7d;
+}
+
+footer#colophon ul li {
+	list-style-type: none;
+}
+
+.featured-images {
+    background: #fff;
+    padding: 30px 0px;
+}
