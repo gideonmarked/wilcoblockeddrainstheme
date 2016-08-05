@@ -30,6 +30,7 @@ em.email_add:before {
     color: #fff;
     font-style: normal;
     content: '\f0e0';
+    margin-left: 20px;
 }
 
 em.email_add a {
@@ -40,7 +41,7 @@ em.email_add a {
     font-size: 20px;
 }
 
-em.phone_number:before {
+i.phone_number:before {
     display: inline-block;
     width: 36px;
     height: 36px;
@@ -55,7 +56,7 @@ em.phone_number:before {
     content: '\f095';
 }
 
-em.phone_number a {
+i.phone_number a {
     color: #fff;
     text-decoration: none;
     font-style: normal;
@@ -76,6 +77,8 @@ ul#menu-main-menu {
     color: #fff;
     text-decoration: none;
     font-family: Arial;
+    padding: 14px 18px;
+    font-size: 18px;
 }
 
 hgroup {
@@ -122,4 +125,12 @@ footer#colophon ul li {
 .featured-images {
     background: #fff;
     padding: 30px 0px;
+}
+
+nav#access {
+    margin-top: 60px;
+}
+
+.menu-item a:hover {
+    background-color: #ff4500;
 }
