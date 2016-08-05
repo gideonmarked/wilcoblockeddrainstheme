@@ -34,21 +34,8 @@
 						<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
 						<?php } ?>
 					</hgroup>
-					<div class="span4" data-motopress-type="dynamic-sidebar" data-motopress-sidebar-id="header-sidebar">
-						<div class="visible-all-devices">
-							<div class="textwidget">
-								<em class="phone_number">
-									<a href="">02 XXX XXX</a>
-								</em>
-							</div>
-						</div>
-						<div id="text-10" class="visible-all-devices ">
-							<div class="textwidget">
-								<em class="email_add">
-									<a href="mailto:info@wilcohotwater.com.au">info@wilcoblockeddrains.com.au</a>
-								</em>
-							</div>
-						</div>
+					<div>
+						<?php if ( dynamic_sidebar('header-widget') ) : else : endif; ?>
 					</div>
 					<nav id="access" role="navigation">
 						<?php /* Our navigation menu. If one isn't filled out, wp_nav_menu falls back to wp_page_menu. The menu assigned to the primary location is the one used. If one isn't assigned, the menu with the lowest ID is used. */ ?>

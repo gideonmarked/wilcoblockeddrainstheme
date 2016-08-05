@@ -205,6 +205,16 @@ function twentyfifteen_widgets_init() {
 		'before_title'  => '<h4 class="widget-title">',
 		'after_title'   => '</h4>',
 	) );
+
+	register_sidebar( array(
+		'name'          => __( 'Header Widget', 'twentyfifteen' ),
+		'id'            => 'header-widget',
+		'description'   => __( 'Add widgets here to appear in your sidebar.', 'twentyfifteen' ),
+		'before_widget' => '<div id="%1$s" class="widget %2$s visible-all-devices">',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h4 class="widget-title">',
+		'after_title'   => '</h4>',
+	) );
 }
 add_action( 'widgets_init', 'twentyfifteen_widgets_init' );
 
