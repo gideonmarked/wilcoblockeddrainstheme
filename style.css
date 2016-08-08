@@ -338,5 +338,20 @@ p.staff-position {
 
 .why-wilco-container {
     background-color:  #fe9550;
-    margin-top: 0px !important;
+}
+
+.why-wilco-container .entry-title {
+    margin:0px;
+}
+
+p.why-wilco {
+    color: #ffffff;
+}
+
+.row.alt-orange {
+    background-color: #f0792b;
+}
+
+.why-wilco-container .entry-header {
+    padding-top: 20px;
 }
