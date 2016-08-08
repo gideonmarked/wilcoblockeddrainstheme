@@ -91,8 +91,8 @@ get_header(); ?>
 							<div class="col-md-10">
 								<span class="testimonials">
 								<p>“I thoroughly recommend Wilco Hot Water. Got through on the phone immediately and they had a petrson out to repair our hot water system when they said they would. I’ve had no end of problems with tradies in the past but this group does what they say in a professional and friendly manner.”
-								<p class="testimonials_name">Malcolm</p>
-								<p class="testimonials_date">Thursday, 17th July 2016</p>
+								<p class="testimonials-name">Malcolm</p>
+								<p class="testimonials-date">Thursday, 17th July 2016</p>
 								</p>
 								</span>
 							</div>
@@ -104,8 +104,8 @@ get_header(); ?>
 							<div class="col-md-10">
 								<span class="testimonials">
 								<p>“I thoroughly recommend Wilco Hot Water. Got through on the phone immediately and they had a petrson out to repair our hot water system when they said they would. I’ve had no end of problems with tradies in the past but this group does what they say in a professional and friendly manner.”
-								<p class="testimonials_name">Malcolm</p>
-								<p class="testimonials_date">Thursday, 17th July 2016</p>
+								<p class="testimonials-name">Malcolm</p>
+								<p class="testimonials-date">Thursday, 17th July 2016</p>
 								</p>
 								</span>
 							</div>

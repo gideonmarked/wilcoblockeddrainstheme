@@ -242,14 +242,14 @@ span.testimonials {
     color: #ffffff;
 }
 
-p.testimonials_name {
+p.testimonials-name {
 	font-weight: bold;
 	font-size: 18px;
     text-align: right;
     margin-bottom: -7px;    
 }
 
-p.testimonials_date {
+p.testimonials-date {
     text-align: right;
     margin-bottom: 20px;
 }
@@ -320,4 +320,23 @@ img.column-image {
 
 .two-row img.column-image {
     width: 100%;
+}
+
+p.staff-name {
+    font-weight: bold;
+    font-size: 18px !important;
+    margin-bottom: -5px;
+}
+
+p.staff-position {
+    font-size: 12px;
+}
+    
+.entry-content p {
+    font-size: 12px;
+}
+
+.why-wilco-container {
+    background-color:  #fe9550;
+    margin-top: 0px !important;
 }
