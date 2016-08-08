@@ -29,8 +29,11 @@
 						<?php if ( dynamic_sidebar('column-4') ) : else : endif; ?>
 					</div>
 				</div><!-- .widget-columns -->
-			</div>
+			</div>			
 		</div><!-- .site-info -->
+		<div class="row copyright">
+			<p class="copyright">Wilco Blocked Drains | Sydney's leading blocked drain specialist &copy; 2016</p> 
+		</div>
 	</footer><!-- .site-footer -->
 
 </div><!-- .site -->

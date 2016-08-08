@@ -102,6 +102,7 @@ hgroup {
 .textwidget {
     float: left;
     margin-right: 20px;
+    color: #ffffff;
 }
 
 footer#colophon {
@@ -211,10 +212,6 @@ img.home-image-buttons {
     width: 100%;
     display: block;
     float: left;
-}
-
-.widget-columns .widget .textwidget {
-    color: #7d7d7d;
 }
 
 .phone_number {
@@ -354,4 +351,36 @@ p.why-wilco {
 
 .why-wilco-container .entry-header {
     padding-top: 20px;
+}
+
+p.nocomments {
+    margin: 0px;
+}
+
+p.copyright {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.row.copyright {
+    background: #14181b;
+}
+
+.footer-widgets {
+    margin-bottom: 20px;
+}
+
+div#text-4 h4.widget-title {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+div#text-5 h4.widget-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
 }
