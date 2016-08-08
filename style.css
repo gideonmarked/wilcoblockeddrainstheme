@@ -8,7 +8,7 @@ div#header-container{
 
 header#branding {
     background: rgba(0,0,0,0.79);
-    padding: 17px 0px;
+    padding: 17px 0px 0px 0px;
     position: absolute;
     z-index: 999;
     width: 100%;
@@ -80,7 +80,6 @@ ul#menu-main-menu {
     color: #fff;
     text-decoration: none;
     font-family: Arial;
-    padding: 14px 18px;
     font-size: 18px;
 }
 
@@ -134,10 +133,6 @@ footer#colophon ul li {
 
 nav#access {
     margin-top: 60px;
-}
-
-.menu-item a:hover {
-    background-color: #ff4500;
 }
 
 .main {
@@ -383,4 +378,38 @@ div#text-5 h4.widget-title {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 0px;
+}
+
+div.menu-primary-container ul.sub-menu {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    background: #f26e16;
+    top: 53px;
+    left: 0px;
+    width: 200px;
+    display: none;
+}
+
+div.menu-primary-container li.menu-item:hover ul.sub-menu {
+    display: block;
+}
+
+div.menu-primary-container ul.sub-menu li.menu-item {
+    float: none;
+    padding: 14px 18px;
+}
+
+.menu-item {
+    list-style-type: none;
+    float: left;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 14px 18px;
+}
+
+.menu-item:hover {
+    background-color: #ff4500;
 }
