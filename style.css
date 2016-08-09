@@ -1,14 +1,14 @@
 body{
-	margin:0px;
+    margin:0px;
 }
 
 div#header-container{
-	background-size: cover !important;
+    background-size: cover !important;
 }
 
 header#branding {
     background: rgba(0,0,0,0.79);
-    padding: 17px 0px;
+    padding: 17px 0px 0px 0px;
     position: absolute;
     z-index: 999;
     width: 100%;
@@ -80,7 +80,6 @@ ul#menu-main-menu {
     color: #fff;
     text-decoration: none;
     font-family: Arial;
-    padding: 14px 18px;
     font-size: 18px;
 }
 
@@ -90,7 +89,7 @@ hgroup {
 }
 
 .span4 {
-	width: 60%;
+    width: 60%;
     margin: 21px 0px 0px 0px !important;
     float: right;
 }
@@ -116,15 +115,15 @@ footer#colophon h4 {
 }
 
 footer#colophon ul {
-	padding-left: 15px;
+    padding-left: 15px;
 }
 
 footer#colophon ul li, footer#colophon ul li a {
-	color: #7d7d7d;
+    color: #7d7d7d;
 }
 
 footer#colophon ul li {
-	list-style-type: none;
+    list-style-type: none;
 }
 
 .featured-images {
@@ -134,10 +133,6 @@ footer#colophon ul li {
 
 nav#access {
     margin-top: 60px;
-}
-
-.menu-item a:hover {
-    background-color: #ff4500;
 }
 
 .main {
@@ -232,7 +227,7 @@ hr {
 }
 
 .why_wilco{
-	background-color: #fe9550;
+    background-color: #fe9550;
 }
 
 span.testimonials {
@@ -240,8 +235,8 @@ span.testimonials {
 }
 
 p.testimonials-name {
-	font-weight: bold;
-	font-size: 18px;
+    font-weight: bold;
+    font-size: 18px;
     text-align: right;
     margin-bottom: -7px;    
 }
@@ -297,9 +292,10 @@ ul#menu-suburbs li a {
 }
 
 h2.entry-title a, h2.entry-title {
-    color: #fff;
+    color: #353535;
     text-align: center;
     width: 100%;
+    font-weight: bold;
 }
 
 .container.team-container {
@@ -375,7 +371,7 @@ p.copyright {
 }
 
 div#text-4 h4.widget-title {
-    font-size: 20px;
+    font-size: 12px;
     font-weight: bold;
 }
 
@@ -383,4 +379,254 @@ div#text-5 h4.widget-title {
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 0px;
+}
+
+div.menu-primary-container ul.sub-menu {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    background: #f26e16;
+    top: 53px;
+    left: 0px;
+    width: 200px;
+    display: none;
+}
+
+div.menu-primary-container li.menu-item:hover ul.sub-menu {
+    display: block;
+}
+
+div.menu-primary-container ul.sub-menu li.menu-item {
+    float: none;
+    padding: 14px 18px;
+}
+
+.menu-item {
+    list-style-type: none;
+    float: left;
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 14px 18px;
+}
+
+.menu-item:hover {
+    background-color: #ff4500;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #f0792b !important;
+}
+
+em.email_add a:hover {
+    color: #f0792b;
+}
+
+.textwidget img {
+    padding-top: 10px;
+}
+
+img.news-column-image {
+    width: 100%;
+    height: 200px;
+    -moz-box-shadow: 0 0 5px 5px #cdcdcd;
+    -webkit-box-shadow: 0 0 5px 5px #cdcdcd;
+    box-shadow: 0 0 5px 5px #cdcdcd;
+    border: 2px solid #ffffff;
+}
+
+a.btn.btn-primary {
+    background-color: red;
+    border-color: transparent;
+    font-weight: bold;
+    padding: 5px 45px
+}
+
+p.read-more {
+    text-align: center;
+}
+
+img.news-column-image-header {
+    width: 100%;
+    height: 400px;
+    -moz-box-shadow: 0 0 5px 5px #cdcdcd;;
+    -webkit-box-shadow: 0 0 5px 5px #cdcdcd;;
+    box-shadow: 0 0 5px 5px #cdcdcd;;
+    border: 2px solid #ffffff;
+    margin-top: 55px;
+}
+
+p.news-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p.news-date {
+    font-size: 15px;
+}
+
+p.news-content {
+    font-size: 15px;
+}
+
+.row.news-image {
+    margin-left: -30px;
+    margin-right: -30px;
+    margin-top: 50px;
+}
+
+.white-container {
+    background-color: #ffffff;
+}
+
+article#post-73 .entry-header h2.entry-title {
+    display: none;
+}
+
+select.wpcf7-form-control.wpcf7-select {
+    width: 100%;
+    height: 29px;
+    font-size: 15px;
+}
+
+p.area-column-title {
+    color: #353535;
+    font-weight: bold;
+    text-align: center;
+}
+
+img.area-column-image {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    -moz-box-shadow: 0 0 5px 5px #cdcdcd;
+    -webkit-box-shadow: 0 0 5px 5px #cdcdcd;
+    box-shadow: 0 0 5px 5px #cdcdcd;
+    border: 2px solid #ffffff;
+}
+
+p.area-column-title:hover {
+    color: #df5900;
+}
+
+.row.previous-image {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: 50px;
+}
+
+img.previous-column-image-header {
+    margin-left: -15px;
+    -moz-box-shadow: 0 0 5px 5px #cdcdcd;
+    -webkit-box-shadow: 0 0 5px 5px #cdcdcd;
+    box-shadow: 0 0 5px 5px #cdcdcd;
+    border: 2px solid #ffffff;
+}
+
+img.previous-column-image {
+    margin-left: -15px;
+    margin-right: -15px;
+    display: block;
+    -moz-box-shadow: 0 0 5px 5px #cdcdcd;
+    -webkit-box-shadow: 0 0 5px 5px #cdcdcd;
+    box-shadow: 0 0 5px 5px #cdcdcd;
+    border: 2px solid #ffffff;
+    width: 100%;
+    height: 300px;
+}
+
+img.previous-testimonials-image {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-style: solid;
+    border-color: #ffffff;
+    border-width: 3px;
+	margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 75px;
+}
+
+.previous-work-testimonials {
+    height: 300px;
+    background: #FE9550;
+    margin-top: 0px;
+}
+
+.wilco-previous {
+    background: #ffffff;
+    margin-top: -11px;
+}
+
+.row.previous-image {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-top: 50px;
+    margin-bottom: 65px;
+}
+
+h2.previous-title-header {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.col-md-10.previous-testimonials {
+    color: #ffffff;
+}
+
+h2.previous-testimonials-title {
+    text-align: center;
+    font-weight: bold;
+}
+
+p.previous-testimonials-title-content {
+    font-size: 16px;
+    text-align: center;
+}
+
+p.previous-testimonials-content {
+    font-size: 14px;
+}
+
+p.previous-testimonials-name {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: right;
+}
+
+p.previous-testimonials-date {
+    font-size: 14px;
+    text-align: right;
+    margin-top: -15px;
+}
+
+p.previous-content {
+    font-size: 14px;
+    margin-top: 25px;
+}
+
+p.previous-time-taken {
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+p.previous-suburb {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+footer.entry-footer {
+    display: none;
+}
+
+p.nocomments {
+    display: none;
 }
